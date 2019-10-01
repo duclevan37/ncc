@@ -1,0 +1,17 @@
+{
+  "name": "converter",
+  "version": "0.0.0",
+  "description": "converter",
+  "main": "app.js",
+  "author": {
+    "name": "steve"
+  },
+  "scripts": {
+    "test": "standard && node ./app.js development",
+    "start": "node ./app.js development"
+  },
+  "dependencies": {
+    "elementtree": "^0.1.7",
+    "sqlite3": "^4.0.0"
+  }
+}

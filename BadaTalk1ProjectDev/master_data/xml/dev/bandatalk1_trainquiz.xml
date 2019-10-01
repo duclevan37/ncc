@@ -1,0 +1,480 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Calmisland</Author>
+  <LastAuthor>EMAG</LastAuthor>
+  <Created>2018-07-04T04:29:54Z</Created>
+  <LastSaved>2019-08-07T08:12:41Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11640</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="BANDATALK1|bandatalk1_train_quiz">
+  <Table ss:ExpandedColumnCount="16" ss:ExpandedRowCount="21" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
+   <Column ss:Width="129"/>
+   <Column ss:AutoFitWidth="0" ss:Width="43.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:AutoFitWidth="0" ss:Width="102.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="223.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="169.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="74.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="120"/>
+   <Column ss:AutoFitWidth="0" ss:Width="118.5"/>
+   <Column ss:Width="147"/>
+   <Column ss:AutoFitWidth="0" ss:Width="152.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="105"/>
+   <Column ss:AutoFitWidth="0" ss:Width="148.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="85.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="111.75"/>
+   <Column ss:Width="114.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">END_OF_COLUMNS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">int(11)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">int(11)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">int(11)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">varchar(255)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">list&lt;varchar(255)&gt;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">list&lt;varchar(255)&gt;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">varchar(255)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">varchar(255)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">varchar(255)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">list&lt;varchar(255)&gt;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">list&lt;varchar(255)&gt;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">varchar(255)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">varchar(255)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">list&lt;varchar(255)&gt;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">list&lt;varchar(255)&gt;</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">카드메모리 아이디</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">version</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">카드장수</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">배경음악</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">키워드세팅</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">키워드이미지</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">5초미반응</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">정답효과음</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">오답효과음</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">키워드보이스 </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">효과음</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">시작문구</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">시작문구오디오</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">종료문구</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">종료문구오디오</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">bandatalk1_train_quiz_mid</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">version</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">train_quiz_sets</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">sound_BG</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">train_quiz_keyword</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">train_quiz_img</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">sound_allert</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">sound_correct</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">sound_wrong</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">train_quiz_keyword_audio</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">sound_effect</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">intro_sentence</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">intro_sentence_audio</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">outro_sentence</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">outro_sentence_audio</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">bgm/genius_bgm_07</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">carrot;salad;apple;tomato;banana</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Image/TrainQuiz/q1;q2;q3;q4;q5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_alarm</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">common_answer_correct</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_answer_wrong</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_I;voice/jess_lives;voice/jess_you;voice/jess_we</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">cardmemory/audio_eff_card_shuffle;flashcard/audio_eff_card_flip;cardmemory/audio_eff_complete</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Train Quiz!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/bada_train</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Awesome!;Good job!;Great job!;Great!;Perfect!;Nice!;Cool!;Fantastic!;Excellent!;Way to go!</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">voice/jess_awesome;voice/jess_goodjob;voice/jess_greatjob;voice/jess_great;voice/jess_perfect;voice/jess_nice;voice/jess_cool;voice/jess_fantastic;voice/jess_excellent;voice/jess_waytogo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">bgm/genius_bgm_07</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">row;stream;merrily;down</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">card_memory_kwd_row;card_memory_kwd_stream;card_memory_kwd_merrily;card_memory_kwd_down</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_alarm</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">common_answer_correct</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_answer_wrong</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_row;voice/jess_stream;voice/jess_merrily;voice/jess_down</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">cardmemory/audio_eff_card_shuffle;flashcard/audio_eff_card_flip;cardmemory/audio_eff_complete</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Let's remember cards!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_lets_remember_cards</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Awesome!;Good job!;Great job!;Great!;Perfect!;Nice!;Cool!;Fantastic!;Excellent!;Way to go!</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">voice/jess_awesome;voice/jess_goodjob;voice/jess_greatjob;voice/jess_great;voice/jess_perfect;voice/jess_nice;voice/jess_cool;voice/jess_fantastic;voice/jess_excellent;voice/jess_waytogo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20003</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">bgm/genius_bgm_07</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">shoulders;toes;eyes;ear</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">card_memory_kwd_shoulders;card_memory_kwd_toes;card_memory_kwd_eyes;card_memory_kwd_ears</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_alarm</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">common_answer_correct</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_answer_wrong</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_shoulders;voice/jess_toes;voice/jess_eyes;voice/jess_ears</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">cardmemory/audio_eff_card_shuffle;flashcard/audio_eff_card_flip;cardmemory/audio_eff_complete</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Let's remember cards!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_lets_remember_cards</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Awesome!;Good job!;Great job!;Great!;Perfect!;Nice!;Cool!;Fantastic!;Excellent!;Way to go!</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">voice/jess_awesome;voice/jess_goodjob;voice/jess_greatjob;voice/jess_great;voice/jess_perfect;voice/jess_nice;voice/jess_cool;voice/jess_fantastic;voice/jess_excellent;voice/jess_waytogo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20004</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">bgm/genius_bgm_07</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">twinkle;wonder;sky;dark</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">card_memory_kwd_twinkle;card_memory_kwd_wonder;card_memory_kwd_sky;card_memory_kwd_dark</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_alarm</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">common_answer_correct</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_answer_wrong</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_twinkle;voice/jess_wonder;voice/jess_sky;voice/jess_dark</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">cardmemory/audio_eff_card_shuffle;flashcard/audio_eff_card_flip;cardmemory/audio_eff_complete</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Let's remember cards!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_lets_remember_cards</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Awesome!;Good job!;Great job!;Great!;Perfect!;Nice!;Cool!;Fantastic!;Excellent!;Way to go!</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">voice/jess_awesome;voice/jess_goodjob;voice/jess_greatjob;voice/jess_great;voice/jess_perfect;voice/jess_nice;voice/jess_cool;voice/jess_fantastic;voice/jess_excellent;voice/jess_waytogo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20005</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">bgm/genius_bgm_07</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">all;put together;fall;wall;men</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">card_memory_kwd_all;card_memory_kwd_put_together;card_memory_kwd_fall;card_memory_kwd_wall;card_memory_kwd_men</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_alarm</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">common_answer_correct</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_answer_wrong</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_all;voice/jess_put_together;voice/jess_fall;voice/jess_wall;voice/jess_men</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">cardmemory/audio_eff_card_shuffle;flashcard/audio_eff_card_flip;cardmemory/audio_eff_complete</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Let's remember cards!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_lets_remember_cards</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Awesome!;Good job!;Great job!;Great!;Perfect!;Nice!;Cool!;Fantastic!;Excellent!;Way to go!</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">voice/jess_awesome;voice/jess_goodjob;voice/jess_greatjob;voice/jess_great;voice/jess_perfect;voice/jess_nice;voice/jess_cool;voice/jess_fantastic;voice/jess_excellent;voice/jess_waytogo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20006</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">bgm/genius_bgm_07</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">go round;bush;morning;early;brush teeth</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">card_memory_kwd_go_round;card_memory_kwd_bush;card_memory_kwd_morning;card_memory_kwd_early;card_memory_kwd_brush_teeth</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_alarm</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">common_answer_correct</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_answer_wrong</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_go_round;voice/jess_bush;voice/jess_morning;voice/jess_early;voice/jess_brush_teeth</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">cardmemory/audio_eff_card_shuffle;flashcard/audio_eff_card_flip;cardmemory/audio_eff_complete</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Let's remember cards!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_lets_remember_cards</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Awesome!;Good job!;Great job!;Great!;Perfect!;Nice!;Cool!;Fantastic!;Excellent!;Way to go!</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">voice/jess_awesome;voice/jess_goodjob;voice/jess_greatjob;voice/jess_great;voice/jess_perfect;voice/jess_nice;voice/jess_cool;voice/jess_fantastic;voice/jess_excellent;voice/jess_waytogo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20007</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">bgm/genius_bgm_07</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">fell off;doctor;bumped;no more;bed</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">card_memory_kwd_fell_off;card_memory_kwd_doctor;card_memory_kwd_bumped;card_memory_kwd_no_more;card_memory_kwd_bed</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_alarm</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">common_answer_correct</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_answer_wrong</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_fell_off;voice/jess_doctor;voice/jess_bumped;voice/jess_no_more;voice/jess_bed</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">cardmemory/audio_eff_card_shuffle;flashcard/audio_eff_card_flip;cardmemory/audio_eff_complete</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Let's remember cards!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_lets_remember_cards</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Awesome!;Good job!;Great job!;Great!;Perfect!;Nice!;Cool!;Fantastic!;Excellent!;Way to go!</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">voice/jess_awesome;voice/jess_goodjob;voice/jess_greatjob;voice/jess_great;voice/jess_perfect;voice/jess_nice;voice/jess_cool;voice/jess_fantastic;voice/jess_excellent;voice/jess_waytogo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20008</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">bgm/genius_bgm_07</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">sunshine;again;itsy bitsy;water spout;washed out</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">card_memory_kwd_sunshine;card_memory_kwd_again;card_memory_kwd_itsy_bitsy;card_memory_kwd_water_spout;card_memory_kwd_washed_out</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_alarm</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">common_answer_correct</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_answer_wrong</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_sunshine;voice/jess_again;voice/jess_itsy_bitsy;voice/jess_water_spout;voice/jess_washed_out</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">cardmemory/audio_eff_card_shuffle;flashcard/audio_eff_card_flip;cardmemory/audio_eff_complete</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Let's remember cards!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_lets_remember_cards</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Awesome!;Good job!;Great job!;Great!;Perfect!;Nice!;Cool!;Fantastic!;Excellent!;Way to go!</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">voice/jess_awesome;voice/jess_goodjob;voice/jess_greatjob;voice/jess_great;voice/jess_perfect;voice/jess_nice;voice/jess_cool;voice/jess_fantastic;voice/jess_excellent;voice/jess_waytogo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20009</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">bgm/genius_bgm_07</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">know;looked;searched;leave;behind</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">card_memory_kwd_know;card_memory_kwd_looked;card_memory_kwd_searched;card_memory_kwd_leave;card_memory_kwd_behind</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_alarm</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">common_answer_correct</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_answer_wrong</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_know;voice/jess_looked;voice/jess_searched;voice/jess_leave;voice/jess_behind</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">cardmemory/audio_eff_card_shuffle;flashcard/audio_eff_card_flip;cardmemory/audio_eff_complete</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Let's remember cards!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_lets_remember_cards</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Awesome!;Good job!;Great job!;Great!;Perfect!;Nice!;Cool!;Fantastic!;Excellent!;Way to go!</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">voice/jess_awesome;voice/jess_goodjob;voice/jess_greatjob;voice/jess_great;voice/jess_perfect;voice/jess_nice;voice/jess_cool;voice/jess_fantastic;voice/jess_excellent;voice/jess_waytogo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20010</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">bgm/genius_bgm_07</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">school;had;children;laugh;play;teacher</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">card_memory_kwd_school;card_memory_kwd_had;card_memory_kwd_children;card_memory_kwd_laugh;card_memory_kwd_play;card_memory_kwd_teacher</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_alarm</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">common_answer_correct</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_answer_wrong</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_school;voice/jess_had;voice/jess_children;voice/jess_laugh;voice/jess_play;voice/jess_teacher</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">cardmemory/audio_eff_card_shuffle;flashcard/audio_eff_card_flip;cardmemory/audio_eff_complete</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Let's remember cards!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_lets_remember_cards</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Awesome!;Good job!;Great job!;Great!;Perfect!;Nice!;Cool!;Fantastic!;Excellent!;Way to go!</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">voice/jess_awesome;voice/jess_goodjob;voice/jess_greatjob;voice/jess_great;voice/jess_perfect;voice/jess_nice;voice/jess_cool;voice/jess_fantastic;voice/jess_excellent;voice/jess_waytogo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20011</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">bgm/genius_bgm_07</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">seven;eight;nine;thirteen;sixteen;twenty</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">card_memory_kwd_seven;card_memory_kwd_eight;card_memory_kwd_nine;card_memory_kwd_thirteen;card_memory_kwd_sixteen;card_memory_kwd_twenty</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_alarm</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">common_answer_correct</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_answer_wrong</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_seven;voice/jess_eight;voice/jess_nine;voice/jess_thirteen;voice/jess_sixteen;voice/jess_twenty</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">cardmemory/audio_eff_card_shuffle;flashcard/audio_eff_card_flip;cardmemory/audio_eff_complete</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Let's remember cards!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_lets_remember_cards</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Awesome!;Good job!;Great job!;Great!;Perfect!;Nice!;Cool!;Fantastic!;Excellent!;Way to go!</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">voice/jess_awesome;voice/jess_goodjob;voice/jess_greatjob;voice/jess_great;voice/jess_perfect;voice/jess_nice;voice/jess_cool;voice/jess_fantastic;voice/jess_excellent;voice/jess_waytogo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20012</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">bgm/genius_bgm_07</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">off we go;early;puff;train;chug</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">card_memory_kwd_off_we_go;card_memory_kwd_early;card_memory_kwd_puff;card_memory_kwd_train;card_memory_kwd_chug</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_alarm</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">common_answer_correct</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">common_answer_wrong</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_off_we_go;voice/jess_early;voice/jess_puff;voice/jess_train;voice/jess_chug</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">cardmemory/audio_eff_card_shuffle;flashcard/audio_eff_card_flip;cardmemory/audio_eff_complete</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Let's remember cards!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_lets_remember_cards</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Awesome!;Good job!;Great job!;Great!;Perfect!;Nice!;Cool!;Fantastic!;Excellent!;Way to go!</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">voice/jess_awesome;voice/jess_goodjob;voice/jess_greatjob;voice/jess_great;voice/jess_perfect;voice/jess_nice;voice/jess_cool;voice/jess_fantastic;voice/jess_excellent;voice/jess_waytogo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">END_OF_DATA</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="16" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">bgm넘버링 적용 후 교체예정 </Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">파티클 종료 시 적용</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="16" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="16" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="16" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="16" ss:StyleID="s63"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C1:R2C15</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;int(11),bigint(20),double,char(1),varchar(255),text,datetime,list&lt;int(11)&gt;,list&lt;bigint(20)&gt;,list&lt;varchar(255)&gt;&quot;</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1C1:R1C15</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;common,design,client,server&quot;</Value>
+  </DataValidation>
+ </Worksheet>
+</Workbook>

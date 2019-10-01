@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - touch
+  - nameTag
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Shadow
+  - MenuPanel
+  - MenuTrigger
+  - Touch
+  - Uppermost
+  - Effect
+  - nameTag
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4022821665
+    locked: 0
+  - name: Middle
+    uniqueID: 1047818483
+    locked: 0
+  - name: Front
+    uniqueID: 2322423009
+    locked: 0

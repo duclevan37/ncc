@@ -1,0 +1,27 @@
+﻿ui_text_mid	ko_kr	en_us	fr_fr	es_es	zh_cn
+NEW_VERSION	최신버전이 업데이트 되었습니다. 업데이트 후 이용하시기 바랍니다. 	The latest version has been updated. Please download the latest version.	The latest version has been updated. Please download the latest version.	The latest version has been updated. Please download the latest version.	The latest version has been updated. Please download the latest version.
+SERVER_INSPECT	서비스 점검중입니다.	The system is under maintenance.	The system is under maintenance.	The system is under maintenance.	The system is under maintenance.
+DNS_FAILURE	인터넷 연결이 원활하지 않습니다.	The application is unable to connect to the internet.	The application is unable to connect to the internet.	The application is unable to connect to the internet.	网络连接不稳定
+DNS_FAILURE_RECONNECT	인터넷 연결이 원활하지 않습니다. 다시 연결하시겠습니까?	The application is unable to connect to the internet. Would you like to reconnect?	The application is unable to connect to the internet. Would you like to reconnect?	The application is unable to connect to the internet. Would you like to reconnect?	The application is unable to connect to the internet. Would you like to reconnect?
+CANCEL	취소	Cancel	Cancel	Cancel	取消
+OK	확인	OK	OK	OK	确认
+No	아니요	No	No	No	No
+Yes	예	Yes	Yes	Yes	Yes
+SESSION_EXPIRE	귀하의 Learn and Play 로그인이 만료되었습니다. 홈으로 이동하여 확인이 필요합니다.	Your current session has expired. Please login again to continue.	Your current session has expired. Please login again to continue.	Your current session has expired. Please login again to continue.	Your current session has expired. Please login again to continue.
+CENTER_LOGIN_FAILED	계정 연동이 실패했습니다.\n앱을 다시 시작해주세요.	Failed to link account.\nPlease restart the app.	Failed to link account.\nPlease restart the app.	Failed to link account.\nPlease restart the app.	Failed to link account.\nPlease restart the app.
+STORAGE_CAPACITY	사용할 수 있는 저장소 용량이 부족합니다.	Insufficient storage capacity.	Insufficient storage capacity.	Insufficient storage capacity.	Insufficient storage capacity.
+NOT_FOUND_GAMEDATA	데이터를 불러오는데 실패했습니다.	Failed to load data from memory card.	Failed to load data from memory card.	Failed to load data from memory card.	Failed to load data from memory card.
+PurchasingUnavailable	In-App Purchases disabled in device settings.	In-App Purchases disabled in device settings.	In-App Purchases disabled in device settings.	In-App Purchases disabled in device settings.	In-App Purchases disabled in device settings.
+NOPRODUCTSAVAILABLE	No products available for purchase.	No products available for purchase.	No products available for purchase.	No products available for purchase.	No products available for purchase.
+AppNotKnown	The store reported the app as unknown.	The store reported the app as unknown.	The store reported the app as unknown.	The store reported the app as unknown.	The store reported the app as unknown.
+ACCOUNT_GUEST	GUEST	GUEST	GUEST	GUEST	GUEST
+POPUP_REMAINING_BATTERY10	배터리가 10% 남은 상태입니다.	There is 10% of battery life left on your device.	There is 10% of battery life left on your device.	There is 10% of battery life left on your device.	There is 10% of battery life left on your device.
+POPUP_REMAINING_BATTERY5	배터리가 5% 남은 상태입니다.	There is 5% of battery life left on your device.	There is 5% of battery life left on your device.	There is 5% of battery life left on your device.	There is 5% of battery life left on your device.
+POPUP_REMAINING_VOLUME	디바이스의 남은 용량(100mb)이 부족하여, 어플리케이션이 정상 동작하지 않을 수 있습니다.	디바이스의 남은 용량(100mb)이 부족하여, 어플리케이션이 정상 동작하지 않을 수 있습니다.	There is less than 100MB of storage left on your device. Apps may not work properly.	There is less than 100MB of storage left on your device. Apps may not work properly.	There is less than 100MB of storage left on your device. Apps may not work properly.
+FAILED_LOAD_SDCARD	바다나무 SD 카드가 없거나 인식하지 못했습니다. 	We are unable to detect or read the Badanamu SD card.	We are unable to detect or read the Badanamu SD card.	We are unable to detect or read the Badanamu SD card.	We are unable to detect or read the Badanamu SD card.
+POPUP_RESTORE_INFO	구입한 아이템이 실행되지 않을 때나, 앱을 지웠다가 다시 설치했을 때 구입 복원을 누르시면 됩니다. Setting 메뉴에서도 구매 복원을 할 수 있습니다.	If you have reinstalled or have a new device, click Restore Purchases. You can restore purchases from the Settings menu.	If you have reinstalled or have a new device, click Restore Purchases. You can restore purchases from the Settings menu.	If you have reinstalled or have a new device, click Restore Purchases. You can restore purchases from the Settings menu.	If you have reinstalled or have a new device, click Restore Purchases. You can restore purchases from the Settings menu.
+RESTORE_TITLE	구매 복원	Restore Purchases	Restore Purchases	Restore Purchases	Restore Purchases
+SYS_SESSION_REQUIRED	세선 졍보가 없거나 잘못되었습니다.	No information found.	No information found.	No information found.	No information found.
+PROFILE_BADA_RHYME_LESSON_NOT_FOUND	프로필 정보에서 Bada Genius의 레슨 정보를 찾을 수 없습니다.	No Lesson information of Bada Geniusfound.	No Lesson information of Bada Geniusfound.	No Lesson information of Bada Geniusfound.	No Lesson information of Bada Geniusfound.
+DNS_FAILURE_RESTART	인터넷 연결이 원활하지 않아 앱을 다시 시작해야합니다.	Unstable Network. You need to restart the app.	Unstable Network. You need to restart the app.	Unstable Network. You need to restart the app.	Unstable Network. You need to restart the app.
+POPUP_FILE_DOESNOT_EXIST	해당 파일을 찾을 수 없습니다.	Content does not exist. 	Content does not exist. 	Content does not exist. 	Content does not exist. 
