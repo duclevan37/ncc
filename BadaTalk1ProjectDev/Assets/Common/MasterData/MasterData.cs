@@ -26,8 +26,6 @@ namespace CalmIsland
 
 			var dbConn = new SQLiteConnection(dbPath, SQLiteOpenFlags.ReadOnly);
 
-
-
 #if MASTERDATA_BANDATALK1 || MASTERDATA_ALL
 			var mstTableBandatalk1TrainQuiz = new MasterTableBandatalk1TrainQuiz();
 			if (!mstTableBandatalk1TrainQuiz.Load(dbConn)) return false;

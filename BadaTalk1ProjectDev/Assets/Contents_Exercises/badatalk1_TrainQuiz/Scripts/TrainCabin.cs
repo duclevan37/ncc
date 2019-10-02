@@ -56,18 +56,13 @@ public class TrainCabin : MonoBehaviour
     {
         this.positionIndex = positionIdx;
         this.keywordIndex = keywordIdx;
-        string keywordBGPath = string.Format("CardMemory{0}/card_memory_img_card_{0}", info.Bandatalk1TrainQuizMid);
-        var keywordBG = Resources.Load<Sprite>(keywordBGPath);
-
-        Assert.IsNotNull(keywordBG, keywordBGPath);
-       // this.keywordBackground.ChangeSprite(keywordBG);
+      
+       
 
         if (keywordIdx >= 0 && keywordIdx < info.TrainQuizImg.Count)
         {
-            string keywordPath = string.Format("CardMemory{0}/{1}", info.Bandatalk1TrainQuizMid, info.TrainQuizImg[keywordIdx]);
+            string keywordPath = string.Format("TrainQuiz{0}/{1}", info.Bandatalk1TrainQuizMid, info.TrainQuizImg[keywordIdx]);
             var keywordSprite = Resources.Load<Sprite>(keywordPath);
-
-            Assert.IsNotNull(keywordSprite, keywordPath);
             this.keywordImage.ChangeSprite(keywordSprite);
         }
         else
@@ -81,7 +76,7 @@ public class TrainCabin : MonoBehaviour
         }
         else
         {
-            Debug.LogErrorFormat("error CardMemoryKeyword.Count : {0}, index : {1}", info.TrainQuizKeyword.Count, keywordIdx);
+            Debug.LogErrorFormat("error TrainQuizKeyword.Count : {0}, index : {1}", info.TrainQuizKeyword.Count, keywordIdx);
 
         }
 
@@ -91,7 +86,9 @@ public class TrainCabin : MonoBehaviour
         }
         else
         {
-            Debug.LogErrorFormat("error CardMemoryKeywordAudio.Count : {0}, index : {1}", info.TrainQuizKeywordAudio.Count, keywordIdx);
+            Debug.LogErrorFormat("error TrainQuizKeywordAudio.Count : {0}, index : {1}", info.TrainQuizKeywordAudio.Count, keywordIdx);
+            Debug.Log("audio test " + info.TrainQuizKeywordAudio[0].ToString());
+
         }
     }
 }

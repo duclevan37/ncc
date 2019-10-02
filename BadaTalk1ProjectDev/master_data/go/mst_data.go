@@ -5,24 +5,6 @@ import (
 	"io/ioutil"
 )
 
-type mstBadatalk1Pattern struct {
-	RhymePatternMid int64 `json:"rhyme_pattern_mid"`
-	Version int64 `json:"version"`
-	PatternSets int64 `json:"pattern_sets"`
-	SoundBG string `json:"sound_BG"`
-	PatternKeyword []string `json:"pattern_keyword"`
-	PatternImg []string `json:"pattern_img"`
-	SoundAllert string `json:"sound_allert"`
-	SoundCorrect string `json:"sound_correct"`
-	SoundWrong string `json:"sound_wrong"`
-	PatternKeywordAudio []string `json:"pattern_keyword_audio"`
-	SoundEffect []string `json:"sound_effect"`
-	IntroSentence string `json:"intro_sentence"`
-	IntroSentenceAudio string `json:"intro_sentence_audio"`
-	OutroSentence []string `json:"outro_sentence"`
-	OutroSentenceAudio []string `json:"outro_sentence_audio"`
-}
-
 type mstBandatalk1TrainQuiz struct {
 	Bandatalk1TrainQuizMid int64 `json:"bandatalk1_train_quiz_mid"`
 	Version int64 `json:"version"`
@@ -82,7 +64,6 @@ type mstUIText struct {
 }
 
 type mst struct {
-	Badatalk1Pattern map[string]mstBadatalk1Pattern `json:"badatalk1_pattern"`
 	Bandatalk1TrainQuiz map[string]mstBandatalk1TrainQuiz `json:"bandatalk1_train_quiz"`
 	Error map[string]mstError `json:"error"`
 	Message map[string]mstMessage `json:"message"`

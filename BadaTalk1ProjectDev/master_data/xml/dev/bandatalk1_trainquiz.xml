@@ -16,8 +16,8 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>11640</WindowHeight>
-  <WindowWidth>28800</WindowWidth>
+  <WindowHeight>8460</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
   <WindowTopX>32767</WindowTopX>
   <WindowTopY>32767</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
@@ -57,21 +57,21 @@
   <Table ss:ExpandedColumnCount="16" ss:ExpandedRowCount="21" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
    <Column ss:Width="129"/>
-   <Column ss:AutoFitWidth="0" ss:Width="43.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="43.8"/>
    <Column ss:AutoFitWidth="0" ss:Width="87"/>
-   <Column ss:AutoFitWidth="0" ss:Width="102.75"/>
-   <Column ss:AutoFitWidth="0" ss:Width="223.5"/>
-   <Column ss:AutoFitWidth="0" ss:Width="169.5"/>
-   <Column ss:AutoFitWidth="0" ss:Width="74.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="102.60000000000001"/>
+   <Column ss:AutoFitWidth="0" ss:Width="223.8"/>
+   <Column ss:AutoFitWidth="0" ss:Width="169.8"/>
+   <Column ss:AutoFitWidth="0" ss:Width="74.400000000000006"/>
    <Column ss:AutoFitWidth="0" ss:Width="120"/>
-   <Column ss:AutoFitWidth="0" ss:Width="118.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="118.8"/>
    <Column ss:Width="147"/>
-   <Column ss:AutoFitWidth="0" ss:Width="152.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="152.4"/>
    <Column ss:AutoFitWidth="0" ss:Width="105"/>
-   <Column ss:AutoFitWidth="0" ss:Width="148.5"/>
-   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="85.5"/>
-   <Column ss:AutoFitWidth="0" ss:Width="111.75"/>
-   <Column ss:Width="114.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="148.80000000000001"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="85.8"/>
+   <Column ss:AutoFitWidth="0" ss:Width="111.60000000000001"/>
+   <Column ss:Width="114.6"/>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">common</Data></Cell>
@@ -150,11 +150,11 @@
     <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">bgm/genius_bgm_07</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">carrot;salad;apple;tomato;banana</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Image/TrainQuiz/q1;q2;q3;q4;q5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">carrot;salad;apple;tomato;banana</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">common_alarm</Data></Cell>
     <Cell ss:StyleID="s64"><Data ss:Type="String">common_answer_correct</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">common_answer_wrong</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_I;voice/jess_lives;voice/jess_you;voice/jess_we</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_I;voice/jess_lives;voice/jess_you;voice/jess_we;voice/jess_we</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">cardmemory/audio_eff_card_shuffle;flashcard/audio_eff_card_flip;cardmemory/audio_eff_complete</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">Train Quiz!</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">voice/bada_train</Data></Cell>
@@ -454,11 +454,13 @@
    </Print>
    <Zoom>85</Zoom>
    <Selected/>
+   <TopRowVisible>6</TopRowVisible>
+   <LeftColumnVisible>3</LeftColumnVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>4</ActiveRow>
-     <ActiveCol>5</ActiveCol>
+     <ActiveRow>18</ActiveRow>
+     <ActiveCol>10</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

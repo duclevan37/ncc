@@ -5,13 +5,20 @@ using UnityEngine.UI;
 using CalmIsland;
 using DG.Tweening;
 using UnityEngine.Assertions;
+using System;
 
 public class TrainQuizManager : MonoBehaviour
 {
+    public GameObject trainStop;
     private int speed = 100;
-    public GameObject[] listAnswer;
+    private int index = 0;
+    public Text[] listAnswer;
     [SerializeField]
     public Image testData;
+    [Header("Answer button")]
+    [SerializeField] private Transform _buttonHolder;
+    [SerializeField] private GameObject btnAnswer;
+
     [SerializeField]
     public class TrainQuizDataCollectionData
     {
@@ -71,8 +78,6 @@ public class TrainQuizManager : MonoBehaviour
     {
         InitializeData();
        
-        string keywordPath =  dataInfo.TrainQuizImg[0];
-
     }
     protected void InitializeData()
     {
@@ -92,10 +97,13 @@ public class TrainQuizManager : MonoBehaviour
     protected void StartGame()
     {
         int count = this.dataInfo.TrainQuizSets;
+        InitKeywordIndex();
         Debug.Log(count);
         Instantiate(headTrain, trainGroup);
         LoadCabin(count);
-        StartCoroutine(Intro());
+        //StartCoroutine(Intro());
+        GenerateAnswer(questionId: 0);
+        //LoadAnswer();
 
     }
     protected void InitKeywordIndex()
@@ -114,89 +122,125 @@ public class TrainQuizManager : MonoBehaviour
         {
             var  instance = Instantiate(this.cabinPrefab, this.trainGroup);
 
-           // Assert.IsNotNull(instance);
+            //Assert.IsNotNull(instance);
             var cabinItem = instance.GetComponent<TrainCabin>();
 
-          //  Assert.IsNotNull(cabinItem);
-
+            //Assert.IsNotNull(cabinItem);
+/*            cabinItem.KeywordText.text = "";*/
             this.trainCabins.Add(cabinItem);
-           // Debug.Log(instance.transform.position.y);
-           // cabinItem.InitKeyword(i, this.dataInfo, this.keywordIndexList[i]);
+            // Debug.Log(instance.transform.position.y);
+          // cabinItem.InitKeyword(i, this.dataInfo, this.keywordIndexList[i]);
+
+
+
+
+        }
+        for (int i=0;i< trainCabins.Count;i++)
+        {
+            trainCabins[i].InitKeyword(i, this.dataInfo, this.keywordIndexList[i]);
+            
+
           
         }
-        string keywordPath = this.dataInfo.TrainQuizImg[2].ToString();
+     /*   string keywordPath = this.dataInfo.TrainQuizImg[2].ToString();
         
 
         //Assert.IsNotNull(keywordSprite, keywordPath);
-        this.testData.ChangeSprite(Resources.Load<Sprite>(keywordPath));
+        this.testData.ChangeSprite(Resources.Load<Sprite>(keywordPath));*/
 
      
     }
+   /* protected void LoadAnswer()
+    {    
+        for (int i=0;i<listAnswer.Length;i++)
+        {
+            listAnswer[i].text=trainCabins[i].KeywordText.text;
+        }
+
+
+    }*/
+
+
     protected void ShowHand(Transform transform, Vector3 offset)
     {
         this.handObject.SetActive(true);
-      //  this.handObject.SetInteger("type", 0);
-       // this.handObject.SetTrigger("fadein");
+  
         this.handObject.transform.position=transform.position;
-     /*   this.handObject.transform.ResetTransform();
-        this.handObject.transform.localPosition = offset;*/
+ 
     }
     protected void HideHand()
     {
         this.handObject.SetActive(false);
     }
-    protected IEnumerator Intro()
-    {
-
-        if (GlobalStateData.IsTutorial)
+    /* protected IEnumerator Intro()
         {
-            yield return Tutorial();
-        }
-    }
-    protected IEnumerator Tutorial()
-    {
-        Transform firstTransform = null;
-  
-
-        int firstIndex = Random.Range(0, this.listAnswer.Length);
-        firstTransform = this.listAnswer[firstIndex].transform;
-        // Assert.IsNotNull(firstTransform);
 
 
-        yield return new WaitForSeconds(10f);
-        ShowHand(firstTransform, Vector3.zero);
 
-        yield return new WaitForSeconds(1.5f);
 
-        HideHand();
+        }*/
+    /* protected IEnumerator Tutorial()
+      {
+          Transform firstTransform = null;
 
-        yield return new WaitForSeconds(2f);
-       this.listAnswer[firstIndex].transform.position = this.trainCabins[0].KeywordImage.transform.position;
-        Debug.Log("vi tri cabin 1"+this.trainCabins[0].KeywordImage.transform.position);
-        
-     
-    }
+
+
+
+          int firstIndex = UnityEngine.Random.Range(0, this.listAnswer.Length);
+          firstTransform = this.listAnswer[firstIndex].transform;
+          // Assert.IsNotNull(firstTransform);
+
+
+          yield return new WaitForSeconds(10f);
+          ShowHand(firstTransform, Vector3.zero);
+
+          yield return new WaitForSeconds(1.5f);
+
+          HideHand();
+
+          yield return new WaitForSeconds(2f);
+
+
+      }*/
     public void Update()
     {
         TrainRun();
-    
+
     }
     protected void TrainRun()
-    {      if(this.trainGroup.position.x<-100)
+    {      if(Mathf.Abs(this.trainGroup.position.x-trainStop.transform.position.x)>60)
         {
             this.trainGroup.Translate(speed * Time.deltaTime, 0f, 0f);
         }
         else
         {
             speed = 0;
-        }
-    
-           
-        
             
-        
+        }
+ 
     }
-    
+
+    private void GenerateAnswer(int questionId)
+    {
+        for(var i = 0; i < 3; i++)
+        {
+            var btn = Instantiate(btnAnswer, _buttonHolder);
+
+            var btnScript = btn.GetComponent<Button>();
+            var text = btn.GetComponentInChildren<Text>();
+
+            var rect = btn.GetComponent<RectTransform>();
+            text.text = trainCabins[i].KeywordText.text;
+            btnScript.onClick.AddListener(() =>
+            {
+                rect.position = this.trainCabins[index].KeywordText.transform.position;
+                rect.SetParent(this.trainCabins[index].transform);
+                index++;
+               
+            });
+        }
+    }
+
     public void OnClickBackButton()
     {
         Debug.Log("OnClickBackButton");
