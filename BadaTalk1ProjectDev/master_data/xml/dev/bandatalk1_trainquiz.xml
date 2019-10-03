@@ -7,9 +7,9 @@
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>Calmisland</Author>
-  <LastAuthor>EMAG</LastAuthor>
+  <LastAuthor>duc</LastAuthor>
   <Created>2018-07-04T04:29:54Z</Created>
-  <LastSaved>2019-08-07T08:12:41Z</LastSaved>
+  <LastSaved>2019-10-03T11:27:09Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -53,7 +53,7 @@
    <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Color="#000000"/>
   </Style>
  </Styles>
- <Worksheet ss:Name="BANDATALK1|bandatalk1_train_quiz">
+ <Worksheet ss:Name="BANDATALK1|bandatalk1_train_qui">
   <Table ss:ExpandedColumnCount="16" ss:ExpandedRowCount="21" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
    <Column ss:Width="129"/>
@@ -154,7 +154,7 @@
     <Cell ss:StyleID="s63"><Data ss:Type="String">common_alarm</Data></Cell>
     <Cell ss:StyleID="s64"><Data ss:Type="String">common_answer_correct</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">common_answer_wrong</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/jess_I;voice/jess_lives;voice/jess_you;voice/jess_we;voice/jess_we</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">voice/carrot;voice/salad;voice/apple;voice/tomato;voice/banana</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">cardmemory/audio_eff_card_shuffle;flashcard/audio_eff_card_flip;cardmemory/audio_eff_complete</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">Train Quiz!</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">voice/bada_train</Data></Cell>
@@ -454,13 +454,12 @@
    </Print>
    <Zoom>85</Zoom>
    <Selected/>
-   <TopRowVisible>6</TopRowVisible>
-   <LeftColumnVisible>3</LeftColumnVisible>
+   <LeftColumnVisible>6</LeftColumnVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>18</ActiveRow>
-     <ActiveCol>10</ActiveCol>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>9</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

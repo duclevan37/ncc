@@ -23,11 +23,11 @@
             "sound_correct": "common_answer_correct",
             "sound_wrong": "common_answer_wrong",
             "train_quiz_keyword_audio": [
-                "voice/jess_I",
-                "voice/jess_lives",
-                "voice/jess_you",
-                "voice/jess_we",
-                "voice/jess_we"
+                "voice/carrot",
+                "voice/salad",
+                "voice/apple",
+                "voice/tomato",
+                "voice/banana"
             ],
             "sound_effect": [
                 "cardmemory/audio_eff_card_shuffle",

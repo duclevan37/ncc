@@ -16,6 +16,17 @@ public class TrainCabin : MonoBehaviour
             return this.keywordImage;
         }
     }
+    [SerializeField]
+    protected Image posKeyWordText;
+    public Image PosKeyWordText
+    {
+        get
+        {
+            return this.posKeyWordText;
+        }
+    }
+
+
 
     [SerializeField]
     protected Text keywordText = null;
@@ -27,7 +38,7 @@ public class TrainCabin : MonoBehaviour
         }
     }
     // Start is called before the first frame update
-  
+
     protected int positionIndex = -1;
     public int PositionIndex
     {
@@ -90,5 +101,11 @@ public class TrainCabin : MonoBehaviour
             Debug.Log("audio test " + info.TrainQuizKeywordAudio[0].ToString());
 
         }
+    }
+    public void PlayKeywordVoice(System.Action onComplete = null)
+    {
+        this.keywordVoice.PlaySound(false, 0, onComplete);
+
+        DataCollectionManager.AudioPlayed(this.keywordText.text);
     }
 }

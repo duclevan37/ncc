@@ -545,7 +545,7 @@ public class CardMemoryManager : MonoBehaviour
         yield return new WaitUntil(() => nextStep);
 
         nextStep = false;
-        this.selectedCardItems[0].PlayKeywordVoice(() =>
+        this.selectedCardItems[1].PlayKeywordVoice(() =>
         {
             nextStep = true;
         });
